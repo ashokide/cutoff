@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12th Cutoff Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="content">
+        <p>Engineering Cutoff Calculator</p>
+        <div id="pdiv">
+            <input type="number" min=0 max=100 placeholder="Enter Physics Mark" id="pmark" required>
+        </div>
+        <div id="cdiv">
+            <input type="number" min=0 max=100 placeholder="Enter Chemistry Mark" id="cmark" required>
+        </div>
+        <div id="mdiv">
+            <input type="number" min=0 max=100 placeholder="Enter Maths Mark" id="mmark" required>
+        </div>
+        <div id="results">
+            <p id="cutoff"></p>
+        </div>
+        <div id="resultbtndiv">
+            <button id="getResult">Get Results</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
